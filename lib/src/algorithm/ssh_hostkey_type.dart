@@ -8,6 +8,7 @@ class SSHHostkeyType with SSHAlgorithm {
   static const ecdsa384 = SSHHostkeyType._('ecdsa-sha2-nistp384');
   static const ecdsa521 = SSHHostkeyType._('ecdsa-sha2-nistp521');
   static const ed25519 = SSHHostkeyType._('ssh-ed25519');
+  static const dss = SSHHostkeyType._('ssh-dss');
 
   const SSHHostkeyType._(this.name);
 
